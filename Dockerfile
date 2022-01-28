@@ -7,7 +7,7 @@ ARG VERSION
 RUN apk --no-cache --no-progress upgrade && \
     apk --no-cache --no-progress add \
     bash \
-    samba=${VERSION} \
+    samba="${VERSION}" \
     shadow \
     tini \
     tzdata && \
