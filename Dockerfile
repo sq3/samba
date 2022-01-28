@@ -1,3 +1,4 @@
+# hadolint ignore=DL3007
 FROM alpine:3.15.0
 
 # Install samba
