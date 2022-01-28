@@ -44,7 +44,7 @@ jobs:
         run: |
           BUILD_DATE=$(date --rfc-3339=seconds --utc)
           echo ::set-output name=build_date::${BUILD_DATE}
-          VERSION=$(cat ./${CATEGORY}/${{ matrix.container }}/VERSION)
+          VERSION=$(cat ./VERSION)
           echo ::set-output name=version::${VERSION}
 
       - name: Log in to the Container registry
