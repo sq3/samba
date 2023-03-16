@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM alpine:3.15.0
+FROM alpine:3.17.2
 
 ARG VERSION
 
